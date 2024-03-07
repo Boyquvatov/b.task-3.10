@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.container header nav {
+  width: 100%;
+  height: 100px;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(71, 71, 71);
+}
+.container header nav h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.container header nav i {
+  display: none;
+}
+.container header .ul {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header .link {
+  color: #000;
+  font-size: 18px;
+}
+.container header main {
+  width: 100%;
+  padding: 0px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  gap: 50px;
+  margin-top: 60px;
+}
+.container header main .header-item1 {
+  width: 720px;
+  height: 470px;
+}
+.container header main .header-item1 img {
+  width: 100%;
+  height: 100%;
+}
+.container header main .header-item2 {
+  width: calc(100% - 800px);
+  height: 470px;
+}
+.container header main .header-item2 h5 {
+  opacity: 0.5;
+  margin-bottom: 18px;
+}
+.container header main .header-item2 h1 {
+  font-size: 43px;
+  font-family: "Tenor Sans";
+}
+.container .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 100px;
+  gap: 30px;
+}
+.container .main .main-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-bottom: 2px solid rgb(190, 190, 190);
+}
+.container .main .main-box1 .card {
+  width: 400px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+.container .main .main-box1 .card img {
+  width: 95%;
+  height: 250px;
+}
+.container .main .main-box1 .card .img-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .main .main-box1 .card .img-text h3 {
+  font-family: "Tenor Sans";
+  font-weight: 500;
+}
+.container .main .main-box1 .card .img-text h5 {
+  font-weight: 800;
+}
+.container .main .main-box1 .card1 {
+  width: 310px;
+  height: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+.container .main .main-box1 .card1 img {
+  width: 95%;
+  height: 200px;
+}
+.container .main .main-box1 .card1 .img-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .main .main-box1 .card1 .img-text h3 {
+  font-family: "Tenor Sans";
+  font-weight: 500;
+}
+.container .main .main-box1 .card1 .img-text h5 {
+  font-weight: 800;
+}
+.container .main .main-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  border-bottom: 2px solid rgb(190, 190, 190);
+}
+.container .main .main-box2 .card2 {
+  width: 590px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+.container .main .main-box2 .card2 img {
+  width: 95%;
+  height: 380px;
+}
+.container .main .main-box2 .card2 .card2-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .main .main-box2 .card2 .card2-text h3 {
+  font-family: "Tenor Sans";
+  font-weight: 500;
+}
+.container .main .main-box2 .card2 .card2-text h5 {
+  font-weight: 800;
+}
+.container footer {
+  width: 100%;
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+}
+.container footer .footer-nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #141414;
+}
+.container footer .footer-nav h1 {
+  color: #fff;
+  font-size: 33px;
+}
+.container footer .footer-nav p {
+  color: #fff;
+  opacity: 0.4;
+}
+.container footer .footer {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+.container footer .footer .footer-item {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.container footer .footer .footer-item .card3 {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.container footer .footer .footer-item .card3 p {
+  color: #fff;
+  opacity: 0.7;
+}
+.container footer .footer form {
+  display: flex;
+}
+.container footer .footer form input {
+  width: 200px;
+  height: 50px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+.container footer .footer form button {
+  cursor: pointer;
+  width: 90px;
+  height: 50px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+}
+
+@media (max-width: 950px) {
+  .container header nav .ul {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media (max-width: 678px) {
+  .container header nav .ul {
+    display: none;
+  }
+  .container header nav i {
+    display: block;
+  }
+}
+@media (max-width: 478px) {
+  .container header nav {
+    padding: 0px 50px;
+  }
+  .container header nav h1 {
+    font-size: 25px;
+  }
+}
+@media (max-width: 1200px) {
+  .container header main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  .container header main .header-item2 {
+    width: 100%;
+    min-height: 200px;
+  }
+  .container header main .header-item1 {
+    width: 620px;
+    height: 400px;
+  }
+}
+@media (max-width: 700px) {
+  .container header main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  .container header main .header-item2 {
+    width: 100%;
+    min-height: 200px;
+  }
+  .container header main .header-item1 {
+    width: 420px;
+    height: 300px;
+  }
+}
+@media (max-width: 500px) {
+  .container header main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  .container header main .header-item2 {
+    width: 100%;
+    min-height: 400px;
+  }
+  .container header main .header-item1 {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .container header main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+  }
+  .container header main .header-item2 {
+    width: 100%;
+    min-height: 200px;
+  }
+  .container header main .header-item2 p {
+    display: none;
+  }
+  .container header main .header-item1 {
+    width: 250px;
+    height: 300px;
+  }
+}
+@media (max-width: 1400px) {
+  .container .main .main-box2 .card2 {
+    width: 400px;
+  }
+  .container .main .main-box2 .card2 img {
+    height: 300px;
+  }
+}
+@media (max-width: 600px) {
+  .container .main .main-box2 .card2 {
+    width: 400px;
+  }
+  .container .main .main-box2 .card2 img {
+    height: 200px;
+  }
+  .container .main .main-box2 .card2 .card2-text h3 {
+    font-family: "Tenor Sans";
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .container .main .main-box2 .card2 .card2-text h5 {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .container .main .main-box2 .card2 {
+    width: 400px;
+  }
+  .container .main .main-box2 .card2 img {
+    height: 100px;
+  }
+  .container .main .main-box2 .card2 h3 {
+    font-family: "Tenor Sans";
+    font-weight: 500;
+    font-size: 27px;
+  }
+  .container .main .main-box2 .card2 h5 {
+    font-weight: 600;
+    font-size: 10px;
+  }
+}
+@media (max-width: 950px) {
+  .container footer .footer-nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .container footer .footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .container footer .footer .footer-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .container footer .footer .footer-item .card3 {
+    width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .container footer form {
+    display: flex;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=task1.css.map */
